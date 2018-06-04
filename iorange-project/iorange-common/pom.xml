@@ -11,10 +11,11 @@
 
     <groupId>com.dayu.iorange</groupId>
     <artifactId>iorange-common</artifactId>
+    <packaging>jar</packaging>
+
 
     <name>iorange-common</name>
-    <!-- FIXME change it to the project's website -->
-    <url>http://www.example.com</url>
+
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -23,6 +24,14 @@
     </properties>
 
     <dependencies>
+
+
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpclient</artifactId>
+            <version>4.5.5</version>
+        </dependency>
+
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
