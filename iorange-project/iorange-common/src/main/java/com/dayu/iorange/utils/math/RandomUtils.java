@@ -14,6 +14,7 @@ import java.util.Random;
 public class RandomUtils {
 
 
+
     /**
      * 生成范围内的随机整数;范围为[min,max]
      * @param min
