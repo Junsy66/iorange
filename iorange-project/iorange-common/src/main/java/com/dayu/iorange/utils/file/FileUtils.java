@@ -60,8 +60,13 @@ public class FileUtils {
 
 
     /**
+     *
      * 以字节流的形式读取文件(二进制文件：视频、音频、txt文件等)
-     * 通过BufferedInputStream 读取效率更高
+     * 通过BufferedInputStream直接可以从内存，减少磁盘IO次数
+     * byte[] -> str 数组转字符串 new String(result,"GBK")
+     * str -> byte[] str.getBytes("UTF-8")
+     * GB2312 表示简体中文字符集 GBK 表示简体繁体字符集
+     *
      * @param filePath
      * @return
      */
@@ -114,12 +119,9 @@ public class FileUtils {
 
 
 
-
-
-
     public static void main(String args[]){
-        String filePath = "";
-        makeDirs(filePath);
+        String filePath = "C:\\Users\\xn048817\\Desktop\\CreditorRightServiceImpl.java";
+        readFile(filePath);
     }
 
 
