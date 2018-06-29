@@ -12,7 +12,7 @@ import java.io.*;
  * @author: YinShiJun
  * @date: 2018/6/5
  * @version:1.0.0
- * @Copyright (c) 深圳市牛鼎丰科技有限公司-版权所有
+ * @Copyright (c) 深圳市爱桔科技有限公司-版权所有
  */
 public class FileUtils {
 

@@ -24,7 +24,7 @@ import org.slf4j.LoggerFactory;
  * @author: YinShiJun
  * @date: 2018/6/4
  * @version:1.0.0
- * @Copyright (c) 深圳市牛鼎丰科技有限公司-版权所有
+ * @Copyright (c) 深圳市爱桔科技有限公司-版权所有
  */
 public class HttpUtils {
 
